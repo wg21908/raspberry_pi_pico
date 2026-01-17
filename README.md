@@ -1,7 +1,5 @@
 # Project 1
 
-Blink an External LED with Raspberry Pi Pico  
-
 Use a Raspberry Pi Pico to blink an external LED on a breadboard using MicroPython, controlled through GPIO.  
 
 ## Toolchain
@@ -10,11 +8,12 @@ mpremote (no Thonny)
 
 ### 🧰 Hardware Required
 
+- Home PC w/Linux Operating System (OS)
 - Raspberry Pi Pico (RP2040)
 - Breadboard
 - 1× LED
 - 1× 330 Ω resistor
-- Jumper wires
+- 2x Jumper wires, each w/male ends
 - USB cable (data-capable)
 
 ### 🔌 Hardware Wiring (Critical)
@@ -125,6 +124,8 @@ If this works, GPIO is available.
     p = Pin(0, Pin.OUT)
 
 ### 🧪 Step 7: Manual LED Test (Proves Wiring)
+
+When copying these 2 commands in terminal and running them, eye pico as your pasting code, LED will lite once then immediately turn off, you can easily miss this if eyeing PC on th paste.  
 
     p.value(1)   # LED ON
     p.value(0)   # LED OFF
