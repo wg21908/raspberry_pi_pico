@@ -147,19 +147,19 @@ Paste this exact code (don’t modify yet):
               self.write(char)
 
 Copy it to the Pico
-mpremote fs cp lcd_i2c.py :lcd_i2c.py
+        mpremote fs cp lcd_i2c.py :lcd_i2c.py
 
 ## 🧪 Step 4: First LCD Test (REPL)
 
 Back in the REPL:
 
-    from machine import Pin, I2C
-    from lcd_i2c import LCD
-    
-    i2c = I2C(0, scl=Pin(1), sda=Pin(0))
-    lcd = LCD(i2c, 0x27)   # change to 0x3F if needed
-    
-    lcd.print("Hello Pico")
+        from machine import Pin, I2C
+        from lcd_i2c import LCD
+        
+        i2c = I2C(0, scl=Pin(1), sda=Pin(0))
+        lcd = LCD(i2c, 0x27)   
+        
+        lcd.print("Hello Pico")
 
 ### 🎉 Expected Result
 
