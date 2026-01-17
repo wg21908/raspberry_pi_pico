@@ -36,6 +36,8 @@ mpremote (no Thonny)
 3. Connect Pico GND → row with LED short leg
 4. Connect Pico GP0 → row with free resistor leg
 
+<img src="img/IMG_1830.jpeg" alt="Photo" width="300" height="200">
+
 ### 🧪 Hardware Sanity Check (Before Any Code)
 
 Temporarily connect: Pico 3V3 → resistor → LED → GND
