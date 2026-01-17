@@ -21,7 +21,7 @@ No resistors required for logic (already handled on backpack).
 
 1. BOOTSEL to throw flash_nuke.uf2 onto pico
 2. Unplug power to pico
-3. BOOTSEL to throw RPI_PICO-20251209-v1.27.0.uf2 onto pico
+3. BOOTSEL to throw [RPI_PICO-20251209-v1.27.0.uf2 ](https://micropython.org/resources/firmware/RPI_PICO-20251209-v1.27.0.uf2) onto pico
 4. Unplug power to pico
 5. Power to pico without BOOTSEL
 
@@ -56,6 +56,8 @@ Wiring Checklist
 - SCL → GP1
 
 Do not proceed until wiring is solid.
+
+<img src="img/PROJECT4.jpeg" alt="Photo" width="300" height="200">
 
 ## 🔍 Step 2: Verify Pico Can See the LCD (I²C Scan)
 
