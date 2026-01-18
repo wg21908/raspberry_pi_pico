@@ -153,13 +153,13 @@ Copy it to the Pico
 
 Back in the REPL:
 
-        from machine import Pin, I2C
-        from lcd_i2c import LCD
-        
-        i2c = I2C(0, scl=Pin(1), sda=Pin(0))
-        lcd = LCD(i2c, 0x27)   
-        
-        lcd.print("Hello Pico")
+from machine import Pin, I2C
+from lcd_i2c import LCD
+
+i2c = I2C(0, scl=Pin(1), sda=Pin(0))
+lcd = LCD(i2c, 0x27)   
+
+lcd.print("Hello Pico")
 
 ### 🎉 Expected Result
 
